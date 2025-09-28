@@ -1,0 +1,17 @@
+@font-face {
+  font-family: horror;
+  src: url('../public/tengahwengi-ywv9z.ttf');
+}
+@font-face {
+  font-family: Zorax;
+  src: url('../public/Zonex.otf');
+}
+
+#appname{
+  font-family: Zorax;
+
+}
+
+#chat{
+  color: #FDEBD0;
+}

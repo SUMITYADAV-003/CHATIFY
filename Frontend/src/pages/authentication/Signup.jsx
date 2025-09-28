@@ -32,6 +32,7 @@ const Signup = () => {
               type="text"
               placeholder="Full Name "
               onChange={handleInputChange}
+              name="fullName"
             />
           </label>
         </div>
@@ -43,6 +44,7 @@ const Signup = () => {
               type="text"
               placeholder="User Name"
               onChange={handleInputChange}
+              name="usernaem"
             />
           </label>
         </div>
@@ -53,6 +55,7 @@ const Signup = () => {
               className="grow"
               type="password"
               placeholder="Password"
+              name="password"
               onChange={handleInputChange}
             />
           </label>
@@ -64,6 +67,7 @@ const Signup = () => {
               className="grow"
               type="password"
               placeholder="Confirm Password"
+              name="confirmPassword"
               onChange={handleInputChange}
             />
           </label>
